@@ -6,3 +6,5 @@ jobs:
   - task: package
     privileged: true
     file: source-code/ci/tasks/package.yml
+  - task: show
+    file: source-code/ci/tasks/show.yml
