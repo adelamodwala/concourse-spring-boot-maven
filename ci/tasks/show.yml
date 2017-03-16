@@ -10,4 +10,4 @@ inputs:
 - name: package-outs
 
 run:
-  path: package-outs/ci/tasks/show2.sh
+  path: package-outs/ci/tasks/show1.sh
