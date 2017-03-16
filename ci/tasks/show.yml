@@ -7,7 +7,8 @@ image_resource:
     tag: "8"
 
 inputs:
+- name: source-code
 - name: package-outs
 
 run:
-  path: package-outs/ci/tasks/show1.sh
+  path: source-code/ci/tasks/show1.sh
